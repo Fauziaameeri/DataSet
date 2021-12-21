@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Dataset</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- declare the array of dataset values here... -->
+  <script src="scripts/data.js"></script>
+</head>
+
+<body>
+  <!-- page elements here... -->
+  <div id="container">
+    <div id="main-container">
+      <div id="header">
+        <h1>Food Dataset</h1>
+        <p>This is a Dataset about food and Statistics for various food items. There are <span
+            id="dataset-length"></span> elements in this dataset</p>
+      </div>
+      <div id="item-body">
+        <div id="item-content">
+          <h2 id="description">Turtle</h2>
+          <p>Category: <span id="category"></span></p>
+          <p>Protein (%): <span id="protein"></span></p>
+          <p>Fiber (%): <span id="fiber"></span></p>
+          <p>Carbohydrate (%): <span id="carbohydrate"></span></p>
+          <p>Saturated Fat (%): <span id="fat"></span></p>
+          <p>Kilo Calories: <span id="kiloCalories"></span></p>
+          <p>Cholesterol: <span id="cholesterol"></span></p>
+          <p>Water (%): <span id="water"></span></p>
+        </div>
+        <div id="buttons-container">
+          <div id="previous">
+            < </div> <div id="next">
+              >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="interesting-facts">
+      <div id="header-2">
+        <h2>Here are some interesting facts in my dataset!</h2>
+      </div>
+      <ul id="facts">
+        <li>There are <span id="fact-1"></span> varieties of cheese.</li>
+        <li>There food with the most Vitamin B12 content is <span id="fact-2"></span> with a whopping <span
+            id="fact-3"></span>.</li>
+        <li>The average protein content in food is <span id="fact-4"></span>%</li>
+        <li>The average ash content in food is <span id="fact-5"></span>%</li>
+      </ul>
+    </div>
+  </div>
+  <!-- access the array and respond to user events here... -->
+  <footer id="image-credits"><a
+      href="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80">Image
+      Credits</a>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
